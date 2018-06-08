@@ -75,8 +75,10 @@ var customers = [
 // first without using lodash's map (with property argument) method, then with it.
 
 //CODE HERE
+const emailList = customers.map(guest => guest.email);
+console.log(emailList);
 
-
+//_.map(customers, "email");
 
 var inviteList1 = ["Ed", "Fanny", "Mildred", "Alice", "James"];
 var inviteList2 = ["Jake", "Mildred", "Jimmy", "Ed", "Franklin"];
